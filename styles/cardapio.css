@@ -1,0 +1,46 @@
+#cardapio{
+    padding-top: 9rem;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(248, 236, 218);
+}
+
+.menuc{
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+   
+}
+
+.card{
+    
+    position: relative;
+    width: 23%;
+    height: 335px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
+}
+
+.card img{
+    width: 100%;
+}
+
+.contentc{
+    font-size: 1.5em;
+}
+
+.btnc{
+    position: absolute;
+    width: 100%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    border: none;
+    padding: 6px;
+    background-image: linear-gradient(to left, #FF0F0D, #FF4E00, #FF9B0D);
+    cursor: pointer;
+}
